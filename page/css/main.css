@@ -16,6 +16,63 @@ html {
     line-height: 1.4;
 }
 
+.logo{
+    background-size: contain;
+    background-position: 100% 100%;
+    height: 3rem;
+}
+
+h1{
+    margin: 0;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgb(36, 35, 35,0.7);
+}
+
+nav a{
+    text-decoration: none;
+    margin-top: 0.7rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    float: right;
+    color: honeydew;
+    font-size: 1rem;
+}
+.hero-img{
+    background: url(../img/blurred.jpg) no-repeat;
+    height: 48.7rem;
+    background-size: contain;
+
+}
+
+.hero-text-title{
+    margin: auto;
+    padding-top: 10rem;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: currentColor;
+    font-size: 5rem;
+}
+
+.hero-text-p{
+    margin: auto;
+    text-align: center;
+    color:aliceblue;
+    padding-bottom: 2rem; 
+    font-size: 1.5rem;
+
+}
+
+.hero-text-button{
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
