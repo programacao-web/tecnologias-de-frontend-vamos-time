@@ -33,15 +33,26 @@ nav{
     background: rgb(36, 35, 35,0.7);
 }
 
-nav a{
+nav ul {
+    margin-top: -2rem;
+    padding-bottom: 1rem;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline;
+    position: relative;
+}
+
+nav ul li a {
     text-decoration: none;
-    margin-top: 0.7rem;
-    margin-right: 2rem;
-    margin-left: 2rem;
-    float: right;
     color: honeydew;
     font-size: 1rem;
+    float: right;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
+
 .hero-img{
     background: url(../img/blurred.jpg) no-repeat;
     height: 48.7rem;
@@ -72,6 +83,7 @@ nav a{
     text-align: center;
     display: block;
 }
+
 
 /*
  * Remove text-shadow in selection highlight:
