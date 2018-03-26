@@ -85,6 +85,22 @@ nav ul li a {
     display: block;
 }
 
+.container {
+	max-width: 500px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    padding: 20px;
+}
+
+.card-text {
+    text-align: center;
+}
+
 
 /*
  * Remove text-shadow in selection highlight:
