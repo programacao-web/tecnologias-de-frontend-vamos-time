@@ -94,11 +94,15 @@ nav ul li a {
     display: flex;
     justify-content: space-around;
     height: 100%;
-    padding: 20px;
+    padding: 10px;
 }
 
 .card-text {
     text-align: center;
+}
+
+.card {
+    margin: 80px;
 }
 
 
