@@ -206,6 +206,14 @@ nav ul li a {
     padding-top: 48px;
 }
 
+.testimony-text {
+    visibility: hidden;
+}
+
+#first-testimony { 
+    visibility: visible;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
