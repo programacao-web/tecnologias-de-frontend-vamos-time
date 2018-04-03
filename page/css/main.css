@@ -144,7 +144,19 @@ nav ul li a {
     height: 48.7rem;
     background-size: cover;
     background-repeat: no-repeat;
+}
 
+.chef {
+    margin-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.painter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-text-title{
@@ -321,6 +333,13 @@ nav ul li a {
         font-size: 80%;
     }
 
+    .chef {
+        max-width: 100%;
+    }
+
+    .painter {
+        max-width: 100%;
+    }
     
 }
 
