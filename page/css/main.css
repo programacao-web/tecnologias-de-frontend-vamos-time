@@ -142,7 +142,8 @@ nav ul li a {
 .hero-img{
     background: url(../img/blurred.jpg) no-repeat;
     height: 48.7rem;
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
@@ -313,6 +314,14 @@ nav ul li a {
        (min-resolution: 1.25dppx),
        (min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
+}
+
+@media (max-width: 480px) { 
+    body { 
+        font-size: 80%;
+    }
+
+    
 }
 
 /* ==========================================================================
