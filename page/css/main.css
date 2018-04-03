@@ -89,10 +89,12 @@ nav ul li a {
 }
 
 .flex {
-    display: block;
+    display: flex;
     justify-content: space-around;
     height: 100%;
     padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card-text {
@@ -100,9 +102,15 @@ nav ul li a {
 }
 
 .card {
-    
     list-style-type: none;
+    padding: 10px;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 10px 10px 5px grey;
 }
+
 .card img{
     display: block;
     margin-left: auto;
@@ -135,9 +143,7 @@ nav ul li a {
     visibility: visible;
 }
 
-
-
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1200px) {
     .logo{
         background-size: contain;
         background-position: 100% 100%;
@@ -268,10 +274,10 @@ nav ul li a {
         visibility: visible;
     }
 
-
     .hidden {
         display: none !important;
     }
+
 }
 /*
  * Hide only visually, but have it available for screen readers:
