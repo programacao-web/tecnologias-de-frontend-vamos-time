@@ -16,109 +16,6 @@ html {
     line-height: 1.4;
 }
 
-.logo{
-    background-size: contain;
-    background-position: 100% 100%;
-    height: 3rem;
-    opacity: 0.5;
-}
-
-h1{
-    margin: 0;
-}
-
-nav{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: rgb(36, 35, 35,0.7);
-}
-
-nav ul {
-    margin-top: -2rem;
-    padding-bottom: 1rem;
-}
-
-nav ul li{
-    list-style: none;
-    display: inline;
-    position: relative;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: honeydew;
-    font-size: 1rem;
-    float: right;
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
-
-.hero-img{
-    background: url(../img/blurred.jpg) no-repeat;
-    height: 48.7rem;
-    background-size: contain;
-
-}
-
-.hero-text-title{
-    margin: auto;
-    padding-top: 10rem;
-    text-align: center;
-    color: aliceblue;
-    text-shadow: currentColor;
-    font-size: 5rem;
-}
-
-.hero-text-p{
-    margin: auto;
-    text-align: center;
-    color:aliceblue;
-    padding-bottom: 2rem; 
-    font-size: 1.5rem;
-
-}
-
-.hero-text-button{
-    margin: auto;
-    text-align: center;
-    display: block;
-}
-
-.container {
-	max-width: 500px;
-    margin: 0 auto;
-}
-
-.flex {
-    display: flex;
-    justify-content: space-around;
-    height: 100%;
-    padding: 10px;
-}
-
-.card-text {
-    text-align: center;
-}
-
-.card {
-    margin: 80px;
-}
-
-.social-links {
-    width: 20px;
-    height: 20px;
-}
-
-.social-links img {
-    width: 100%;
-    height: auto;
-}
-
-.footer-copyright {
-    padding-top: 48px;
-}
-
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -200,21 +97,114 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.logo{
+    background-size: contain;
+    background-position: 100% 100%;
+    height: 3rem;
+    opacity: 0.5;
+}
 
+h1{
+    margin: 0;
+}
 
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgb(36, 35, 35,0.7);
+}
 
+ul {
+    list-style-type: none;
+}
 
+nav ul {
+    margin-top: -2rem;
+    padding-bottom: 1rem;
+}
 
+nav ul li{
+    list-style: none;
+    display: inline;
+    position: relative;
+}
 
+nav ul li a {
+    text-decoration: none;
+    color: honeydew;
+    font-size: 1rem;
+    float: right;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
 
+.hero-img{
+    background: url(../img/blurred.jpg) no-repeat;
+    height: 48.7rem;
+    background-size: contain;
 
+}
 
+.hero-text-title{
+    margin: auto;
+    padding-top: 10rem;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: currentColor;
+    font-size: 5rem;
+}
 
+.hero-text-p{
+    margin: auto;
+    text-align: center;
+    color:aliceblue;
+    padding-bottom: 2rem; 
+    font-size: 1.5rem;
 
+}
 
+.hero-text-button{
+    margin: auto;
+    text-align: center;
+    display: block;
+}
 
+.container {
+	max-width: 500px;
+    margin: 0 auto;
+}
 
+.flex {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    padding: 10px;
+}
 
+.card-text {
+    text-align: center;
+}
+
+.card {
+    margin: 80px;
+    list-style-type: none;
+}
+
+.social-links {
+    width: 20px;
+    height: 20px;
+    list-style-type: none;
+}
+
+.social-links img {
+    width: 100%;
+    height: auto;
+}
+
+.footer-copyright {
+    padding-top: 48px;
+}
 
 /* ==========================================================================
    Helper classes
