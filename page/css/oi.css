@@ -1,20 +1,20 @@
-/* line 1, scss/elements/_nav.scss */
+/* line 3, scss/elements/_nav.scss */
 nav {
   position: fixed;
   top: 0;
   width: 100%;
-  background: #242323;
+  background: black;
   opacity: 0.7; }
-  /* line 7, scss/elements/_nav.scss */
+  /* line 9, scss/elements/_nav.scss */
   nav ul {
     margin-top: -2rem;
     padding-bottom: 0.85rem; }
-    /* line 10, scss/elements/_nav.scss */
+    /* line 12, scss/elements/_nav.scss */
     nav ul li {
       list-style: none;
       display: inline;
       position: relative; }
-      /* line 14, scss/elements/_nav.scss */
+      /* line 16, scss/elements/_nav.scss */
       nav ul li a {
         text-decoration: none;
         color: honeydew;
@@ -24,9 +24,38 @@ nav {
         margin-right: 1rem;
         margin-top: -0.5rem; }
 
-/* line 27, scss/elements/_nav.scss */
+/* line 29, scss/elements/_nav.scss */
 ul {
   list-style-type: none; }
+
+@media only screen and (min-width: 1200px) {
+  /* line 34, scss/elements/_nav.scss */
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: black;
+    opacity: 0.7; }
+    /* line 40, scss/elements/_nav.scss */
+    nav ul {
+      margin-top: -2rem;
+      padding-bottom: 1rem; }
+      /* line 43, scss/elements/_nav.scss */
+      nav ul li {
+        list-style: none;
+        display: inline;
+        position: relative; }
+        /* line 47, scss/elements/_nav.scss */
+        nav ul li a {
+          text-decoration: none;
+          color: honeydew;
+          font-size: 1rem;
+          float: right;
+          margin-left: 2rem;
+          margin-right: 2rem; }
+  /* line 59, scss/elements/_nav.scss */
+  ul {
+    list-style-type: none; } }
 
 /* line 1, scss/elements/_hero.scss */
 .hero-img {
@@ -58,3 +87,11 @@ ul {
   text-align: center;
   display: block;
   font-size: 15px; }
+
+/* line 3, scss/base/base.scss */
+h1 {
+  font-family: "Helvetica Neue", sans-serif; }
+
+/* line 7, scss/base/base.scss */
+h2 {
+  font-family: "source-serif-pro", Georgia, "Times New Roman", Times, serif; }

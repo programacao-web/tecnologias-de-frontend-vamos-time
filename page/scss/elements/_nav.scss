@@ -1,8 +1,10 @@
+@import "../settings/settings";
+
 nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgb(36, 35, 35);
+    background: $color-black;
     opacity: 0.7;
     ul {
         margin-top: -2rem;
@@ -13,7 +15,7 @@ nav {
             position: relative;
             a {
                 text-decoration: none;
-                color: honeydew;
+                color: $color-honeydew;
                 font-size: 1.5rem;
                 float: right;
                 margin-left: 1rem;
@@ -28,6 +30,36 @@ ul {
     list-style-type: none;
 }
 
+@media only screen and (min-width: 1200px) {
+    nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: $color-black;
+        opacity: 0.7;
+        ul {
+            margin-top: -2rem;
+            padding-bottom: 1rem;
+            li {
+                list-style: none;
+                display: inline;
+                position: relative;
+                a {
+                    text-decoration: none;
+                    color: $color-honeydew;
+                    font-size: 1rem;
+                    float: right;
+                    margin-left: 2rem;
+                    margin-right: 2rem;
+                }
+            }
+        }
+    }
+
+    ul {
+        list-style-type: none;
+    }
+}
 
 
 
