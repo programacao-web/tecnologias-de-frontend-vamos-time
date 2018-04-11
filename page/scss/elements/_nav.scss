@@ -1,0 +1,33 @@
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgb(36, 35, 35);
+    opacity: 0.7;
+    ul {
+        margin-top: -2rem;
+        padding-bottom: 0.85rem;
+        li {
+            list-style: none;
+            display: inline;
+            position: relative;
+            a {
+                text-decoration: none;
+                color: honeydew;
+                font-size: 1.5rem;
+                float: right;
+                margin-left: 1rem;
+                margin-right: 1rem;
+                margin-top: -0.5rem;
+            }
+        }
+    }
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+

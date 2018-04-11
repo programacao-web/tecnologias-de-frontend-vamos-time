@@ -1,0 +1,31 @@
+.hero-img {
+    background: url(../img/blurred.jpg) no-repeat;
+    height: 50rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-text-title {
+    margin: auto; 
+    padding-top: 20rem;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: currentColor;
+    font-size: 3rem;
+}
+
+.hero-text-p {
+    margin: auto;
+    text-align: center;
+    color:aliceblue;
+    padding-bottom: 2rem; 
+    font-size: 1rem;
+
+}
+
+.hero-text-button {
+    margin: auto;
+    text-align: center;
+    display: block;
+    font-size: 15px;
+}
