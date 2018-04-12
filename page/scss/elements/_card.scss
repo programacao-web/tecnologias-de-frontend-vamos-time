@@ -1,5 +1,4 @@
-@import "../settings/settings.scss";
-
+@import 'settings/settings';
 .card-text {
     text-align: center;
 }
@@ -19,4 +18,15 @@
     margin-right: auto;
     margin-top: 1rem;
     width: 40%;
+}
+
+@media only screen and (min-width: 1200px) {
+    .card-text {
+        text-align: center;
+    }
+
+    .card {
+        margin: 80px;
+        list-style-type: none;
+    }
 }

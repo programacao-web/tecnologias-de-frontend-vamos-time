@@ -1,3 +1,4 @@
+@import 'settings/settings';
 .hero-img {
     background: url(../img/blurred.jpg) no-repeat;
     height: 50rem;
@@ -9,7 +10,7 @@
     margin: auto; 
     padding-top: 20rem;
     text-align: center;
-    color: aliceblue;
+    color: $color-honeydew;
     text-shadow: currentColor;
     font-size: 3rem;
 }
@@ -17,7 +18,7 @@
 .hero-text-p {
     margin: auto;
     text-align: center;
-    color:aliceblue;
+    color:$color-honeydew;
     padding-bottom: 2rem; 
     font-size: 1rem;
 
@@ -28,4 +29,38 @@
     text-align: center;
     display: block;
     font-size: 15px;
+}
+
+@media only screen and (min-width: 1200px) {
+    .hero-img{
+        background: url(../img/blurred.jpg) no-repeat;
+        height: 48.7rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .hero-text-title{
+        margin: auto;
+        padding-top: 10rem;
+        text-align: center;
+        color: $color-honeydew;
+        text-shadow: currentColor;
+        font-size: 5rem;
+    }
+
+    .hero-text-p{
+        margin: auto;
+        text-align: center;
+        color:$color-honeydew;
+        padding-bottom: 2rem; 
+        font-size: 1.5rem;
+
+    }
+
+    .hero-text-button{
+        margin: auto;
+        text-align: center;
+        display: block;
+        font-size: 20px;
+    }
 }

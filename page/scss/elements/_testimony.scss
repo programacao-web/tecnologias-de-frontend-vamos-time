@@ -1,0 +1,18 @@
+@import 'settings/settings';
+.testimony-text {
+    visibility: hidden;
+}
+
+#first-testimony { 
+    visibility: visible;
+}
+
+@media only screen and (min-width: 1200px) {
+    .testimony-text {
+        visibility: hidden;
+    }
+
+    #first-testimony { 
+        visibility: visible;
+    }
+}

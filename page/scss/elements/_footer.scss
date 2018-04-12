@@ -1,0 +1,15 @@
+@import 'settings/settings';
+.footer-copyright {
+    margin-top: 2.5rem;
+}
+
+.footer-wrapper {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+@media only screen and (min-width: 1200px) {
+    .footer-copyright {
+        padding-top: 48px;
+    }
+}

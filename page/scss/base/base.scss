@@ -1,5 +1,4 @@
-@import "../settings/settings.scss";
-
+@import 'settings/settings';
 h1{
     font-family: $h1-font;
 }
@@ -9,5 +8,5 @@ h2{
 }
 
 h3{
-
+    font-family: $h2-h3-font;
 }

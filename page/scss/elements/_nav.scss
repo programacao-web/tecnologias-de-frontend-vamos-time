@@ -1,5 +1,4 @@
-@import "../settings/settings";
-
+@import 'settings/settings';
 nav {
     position: fixed;
     top: 0;
@@ -24,6 +23,13 @@ nav {
             }
         }
     }
+}
+
+.logo{
+    background-size: contain;
+    background-position: 100% 100%;
+    height: 3rem;
+    opacity: 0.5;
 }
 
 ul {
@@ -51,9 +57,17 @@ ul {
                     float: right;
                     margin-left: 2rem;
                     margin-right: 2rem;
+                    margin-top: -0.2rem;
                 }
             }
         }
+    }
+
+    .logo{
+        background-size: contain;
+        background-position: 100% 100%;
+        height: 3rem;
+        opacity: 0.5;
     }
 
     ul {

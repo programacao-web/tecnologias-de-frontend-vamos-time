@@ -1,0 +1,32 @@
+@import 'settings/settings';
+.social-links {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    .social-media{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        width: 2rem;
+        height: 2rem;
+        margin-top: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .social-links {
+        display: flex;
+        justify-content: space-between;
+        width: 20px;
+        height: 20px;
+        list-style-type: none;
+        .social-media{
+            margin-right: 1rem;
+        }
+    }
+
+
+    .social-links img {
+        width: 100%;
+        height: auto;
+    }
+}

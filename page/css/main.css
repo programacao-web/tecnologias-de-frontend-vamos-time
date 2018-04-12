@@ -1,295 +1,298 @@
-.logo{
+/* line 2, scss/elements/_nav.scss */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: black;
+  opacity: 0.7; }
+  /* line 8, scss/elements/_nav.scss */
+  nav ul {
+    margin-top: -2rem;
+    padding-bottom: 0.85rem; }
+    /* line 11, scss/elements/_nav.scss */
+    nav ul li {
+      list-style: none;
+      display: inline;
+      position: relative; }
+      /* line 15, scss/elements/_nav.scss */
+      nav ul li a {
+        text-decoration: none;
+        color: honeydew;
+        font-size: 1.5rem;
+        float: right;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: -0.5rem; }
+
+/* line 28, scss/elements/_nav.scss */
+.logo {
+  background-size: contain;
+  background-position: 100% 100%;
+  height: 3rem;
+  opacity: 0.5; }
+
+/* line 35, scss/elements/_nav.scss */
+ul {
+  list-style-type: none; }
+
+@media only screen and (min-width: 1200px) {
+  /* line 40, scss/elements/_nav.scss */
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: black;
+    opacity: 0.7; }
+    /* line 46, scss/elements/_nav.scss */
+    nav ul {
+      margin-top: -2rem;
+      padding-bottom: 1rem; }
+      /* line 49, scss/elements/_nav.scss */
+      nav ul li {
+        list-style: none;
+        display: inline;
+        position: relative; }
+        /* line 53, scss/elements/_nav.scss */
+        nav ul li a {
+          text-decoration: none;
+          color: honeydew;
+          font-size: 1rem;
+          float: right;
+          margin-left: 2rem;
+          margin-right: 2rem;
+          margin-top: -0.2rem; }
+  /* line 66, scss/elements/_nav.scss */
+  .logo {
     background-size: contain;
     background-position: 100% 100%;
     height: 3rem;
-    opacity: 0.5;
-}
+    opacity: 0.5; }
+  /* line 73, scss/elements/_nav.scss */
+  ul {
+    list-style-type: none; } }
 
-.conteudo p {
-    display: block;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    max-width: 86%;
-}
+/* line 2, scss/elements/_hero.scss */
+.hero-img {
+  background: url(../img/blurred.jpg) no-repeat;
+  height: 50rem;
+  background-size: cover;
+  background-repeat: no-repeat; }
 
+/* line 9, scss/elements/_hero.scss */
+.hero-text-title {
+  margin: auto;
+  padding-top: 20rem;
+  text-align: center;
+  color: honeydew;
+  text-shadow: currentColor;
+  font-size: 3rem; }
 
-.chef {
-    margin-top: 2rem;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 80%;
-}
+/* line 18, scss/elements/_hero.scss */
+.hero-text-p {
+  margin: auto;
+  text-align: center;
+  color: honeydew;
+  padding-bottom: 2rem;
+  font-size: 1rem; }
 
-.painter {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 80%;
-}
+/* line 27, scss/elements/_hero.scss */
+.hero-text-button {
+  margin: auto;
+  text-align: center;
+  display: block;
+  font-size: 15px; }
 
-.flex {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    height: 100%;
-    max-width: 74%;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-}
-
-.card-text {
+@media only screen and (min-width: 1200px) {
+  /* line 35, scss/elements/_hero.scss */
+  .hero-img {
+    background: url(../img/blurred.jpg) no-repeat;
+    height: 48.7rem;
+    background-size: cover;
+    background-repeat: no-repeat; }
+  /* line 42, scss/elements/_hero.scss */
+  .hero-text-title {
+    margin: auto;
+    padding-top: 10rem;
     text-align: center;
-}
-
-.card {
-    list-style-type: none;
-    width: 20%;
-    border: 2px solid black;
-    border-radius: 5px;
-    margin: 1rem;
-    box-shadow: 10px 10px 5px grey;
-}
-
-.card img{
+    color: honeydew;
+    text-shadow: currentColor;
+    font-size: 5rem; }
+  /* line 51, scss/elements/_hero.scss */
+  .hero-text-p {
+    margin: auto;
+    text-align: center;
+    color: honeydew;
+    padding-bottom: 2rem;
+    font-size: 1.5rem; }
+  /* line 60, scss/elements/_hero.scss */
+  .hero-text-button {
+    margin: auto;
+    text-align: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1rem;
-    width: 40%;
-}
+    font-size: 20px; } }
 
+/* line 2, scss/elements/_card.scss */
+.card-text {
+  text-align: center; }
+
+/* line 6, scss/elements/_card.scss */
+.card {
+  list-style-type: none;
+  width: 20%;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 1rem;
+  box-shadow: 10px 10px 5px gray; }
+
+/* line 15, scss/elements/_card.scss */
+.card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  width: 40%; }
+
+@media only screen and (min-width: 1200px) {
+  /* line 24, scss/elements/_card.scss */
+  .card-text {
+    text-align: center; }
+  /* line 28, scss/elements/_card.scss */
+  .card {
+    margin: 80px;
+    list-style-type: none; } }
+
+/* line 2, scss/elements/_footer.scss */
+.footer-copyright {
+  margin-top: 2.5rem; }
+
+/* line 6, scss/elements/_footer.scss */
+.footer-wrapper {
+  margin-right: 1rem;
+  margin-left: 1rem; }
+
+@media only screen and (min-width: 1200px) {
+  /* line 12, scss/elements/_footer.scss */
+  .footer-copyright {
+    padding-top: 48px; } }
+
+/* line 2, scss/elements/_social.scss */
 .social-links {
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-
-}
-.social-media{
+  display: flex;
+  list-style-type: none;
+  justify-content: center; }
+  /* line 6, scss/elements/_social.scss */
+  .social-links .social-media {
     margin-left: 1rem;
     margin-right: 1rem;
     width: 2rem;
     height: 2rem;
-    margin-top: 1.5rem;
-}
-
-.footer-copyright {
-    margin-top: 2.5rem;
-}
-
-.testimony-text {
-    visibility: hidden;
-}
-
-#first-testimony { 
-    visibility: visible;
-}
-
-.footer-wrapper{
-    margin-right: 1rem;
-    margin-left: 1rem;
-}
+    margin-top: 1.5rem; }
 
 @media only screen and (min-width: 1200px) {
-    .logo{
-        background-size: contain;
-        background-position: 100% 100%;
-        height: 3rem;
-        opacity: 0.5;
-    }
+  /* line 16, scss/elements/_social.scss */
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 20px;
+    height: 20px;
+    list-style-type: none; }
+    /* line 22, scss/elements/_social.scss */
+    .social-links .social-media {
+      margin-right: 1rem; }
+  /* line 28, scss/elements/_social.scss */
+  .social-links img {
+    width: 100%;
+    height: auto; } }
 
-    nav{
-        position: fixed;
-        top: 0;
-        width: 100%;
-        background: rgb(36, 35, 35,0.7);
-    }
+/* line 2, scss/elements/_testimony.scss */
+.testimony-text {
+  visibility: hidden; }
 
-    ul {
-        list-style-type: none;
-    }
+/* line 6, scss/elements/_testimony.scss */
+#first-testimony {
+  visibility: visible; }
 
-    nav ul {
-        margin-top: -2rem;
-        padding-bottom: 1rem;
-    }
+@media only screen and (min-width: 1200px) {
+  /* line 11, scss/elements/_testimony.scss */
+  .testimony-text {
+    visibility: hidden; }
+  /* line 15, scss/elements/_testimony.scss */
+  #first-testimony {
+    visibility: visible; } }
 
-    nav ul li{
-        list-style: none;
-        display: inline;
-        position: relative;
-    }
+/* line 2, scss/imgs/imgs.scss */
+.chef {
+  margin-top: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%; }
 
-    nav ul li a {
-        text-decoration: none;
-        color: honeydew;
-        font-size: 1rem;
-        float: right;
-        margin-left: 2rem;
-        margin-right: 2rem;
-    }
+/* line 10, scss/imgs/imgs.scss */
+.painter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%; }
 
-    .hero-img{
-        background: url(../img/blurred.jpg) no-repeat;
-        height: 48.7rem;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
+@media only screen and (min-width: 1200px) {
+  /* line 19, scss/imgs/imgs.scss */
+  .conteudo img.chef {
+    margin-top: 2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%; }
+  /* line 27, scss/imgs/imgs.scss */
+  .conteudo img.painter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%; } }
 
-    .chef {
-        margin-top: 25px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+/* line 2, scss/structure/structure.scss */
+.conteudo p {
+  display: block;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  max-width: 86%; }
 
-    .painter {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+/* line 9, scss/structure/structure.scss */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100%;
+  max-width: 74%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center; }
 
-    .hero-text-title{
-        margin: auto;
-        padding-top: 10rem;
-        text-align: center;
-        color: aliceblue;
-        text-shadow: currentColor;
-        font-size: 5rem;
-    }
+@media only screen and (min-width: 1200px) {
+  /* line 21, scss/structure/structure.scss */
+  .container {
+    max-width: 500px;
+    margin: -40px auto; }
+  /* line 26, scss/structure/structure.scss */
+  .flex {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    padding: 10px;
+    flex-flow: row nowrap;
+    max-width: 90%; }
+  /* line 35, scss/structure/structure.scss */
+  .hidden {
+    display: none !important; } }
 
-    .hero-text-p{
-        margin: auto;
-        text-align: center;
-        color:aliceblue;
-        padding-bottom: 2rem; 
-        font-size: 1.5rem;
+/* line 2, scss/base/base.scss */
+h1 {
+  font-family: "Helvetica Neue", sans-serif; }
 
-    }
+/* line 6, scss/base/base.scss */
+h2 {
+  font-family: "source-serif-pro", Georgia, "Times New Roman", Times, serif; }
 
-    .hero-text-button{
-        margin: auto;
-        text-align: center;
-        display: block;
-        font-size: 20px;
-    }
-
-    .container {
-        max-width: 500px;
-        margin: -40px auto;
-    }
-
-    .flex {
-        display: flex;
-        justify-content: space-around;
-        height: 100%;
-        padding: 10px;
-        flex-flow: row nowrap;
-        max-width: 90%;
-    }
-
-    .card-text {
-        text-align: center;
-    }
-
-    .card {
-        margin: 80px;
-        list-style-type: none;
-    }
-
-    .social-links {
-        width: 20px;
-        height: 20px;
-        list-style-type: none;
-    }
-
-    .social-links img {
-        width: 100%;
-        height: auto;
-    }
-
-    .footer-copyright {
-        padding-top: 48px;
-    }
-
-    .testimony-text {
-        visibility: hidden;
-    }
-
-    #first-testimony { 
-        visibility: visible;
-    }
-
-    .hidden {
-        display: none !important;
-    }
-
-}
-/*
- * Hide only visually, but have it available for screen readers:
- * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- *
- * 1. For long content, line feeds are not interpreted as spaces and small width
- *    causes content to wrap 1 word per line:
- *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
- */
-
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    -webkit-clip-path: inset(50%);
-    clip-path: inset(50%);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-    white-space: nowrap; /* 1 */
-}
-
-/*
- * Extends the .visuallyhidden class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    -webkit-clip-path: none;
-    clip-path: none;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-    white-space: inherit;
-}
-
-/*
- * Hide visually and from screen readers, but maintain layout
- */
-
-.invisible {
-    visibility: hidden;
-}
-
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
-   These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
-}
-
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
-}
+/* line 10, scss/base/base.scss */
+h3 {
+  font-family: "source-serif-pro", Georgia, "Times New Roman", Times, serif; }
