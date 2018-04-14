@@ -205,20 +205,40 @@ ul {
     height: auto; } }
 
 /* line 2, scss/elements/_testimony.scss */
-.testimony-text {
-  visibility: hidden; }
+.testimony {
+  width: 650px;
+  overflow: hidden;
+  height: 300px;
+  margin: 50px auto;
+  box-shadow: 0 0 8px #000;
+  position: relative; }
 
-/* line 6, scss/elements/_testimony.scss */
-#first-testimony {
-  visibility: visible; }
+/* line 11, scss/elements/_testimony.scss */
+.testimony p {
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px; }
 
 @media only screen and (min-width: 1200px) {
-  /* line 11, scss/elements/_testimony.scss */
-  .testimony-text {
-    visibility: hidden; }
-  /* line 15, scss/elements/_testimony.scss */
-  #first-testimony {
-    visibility: visible; } }
+  /* line 21, scss/elements/_testimony.scss */
+  .testimony {
+    width: 650px;
+    overflow: hidden;
+    height: 300px;
+    margin: 50px auto;
+    box-shadow: 0 0 8px #000;
+    position: relative; }
+  /* line 30, scss/elements/_testimony.scss */
+  .testimony p {
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px; } }
 
 /* line 2, scss/imgs/imgs.scss */
 .chef {
