@@ -1,18 +1,26 @@
-$(function(){
+$(function () {
+    var width = (parseInt($('.carrossel .item').outerWidth() + parseInt($('.carrossel .item').css('margin-right')))) * $('.carrossel .item').length;
+    $('.carrossel').css('width', width);
 
-	$('.testimony img:eq(0)').addClass("ativo").show();
-    var texto = $(".ativo").attr("alt");
-    $('.testimony').prepend("<p>"+texto+"</p>");
-    setInterval(testimony,3000);
+    var numImages = 1;
+    var margPadding = 30;
 
-    function testimony() {
-    	if($('.ativo').next().size()) {
-    		$('.ativo').fadeOut().removeClass("ativo").next().fadeIn().addClass("ativo");
-    	} else {
-    		$('.ativo').fadeOut().removeClass("ativo");
-    		$('.testimony img:eq(0)').fadeIn().addClass("ativo");
-    	}
-    	var texto = $(".ativo").attr("alt");
-    	$('.testimony p').hide().html(texto).delay(500).fadeIn();
-    }
+    var ident = 0;
+    var count = ($('.carrossel .item').length / numImages) - 1;
+    var slide = (numImages * margPadding) + ($('.carrossel img').outerWidth() * numImages);
+
+    $('.forth').click(function () {
+        if (ident < count) {
+            ident++;
+            $('.carrossel').animate({'margin-left': '-=' + slide + 'px'}, '500');
+        }
+    });
+
+    $('.back').click(function () {
+        if (ident >= 1) {
+            ident--;
+            $('.carrossel').animate({'margin-left': '+=' + slide + 'px'}, '500');
+        }
+    });
+
 });
