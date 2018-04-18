@@ -395,3 +395,7 @@ h2 {
 /* line 10, scss/base/base.scss */
 h3 {
   font-family: "source-serif-pro", Georgia, "Times New Roman", Times, serif; }
+
+/* line 14, scss/base/base.scss */
+body {
+  margin: 0; }
