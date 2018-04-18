@@ -1,26 +1,23 @@
-$(function () {
-    var width = (parseInt($('.carrossel .item').outerWidth() + parseInt($('.carrossel .item').css('margin-right')))) * $('.carrossel .item').length;
-    $('.carrossel').css('width', width);
+var slideIndex = 0;
+showSlides();
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
 
-    var numImages = 1;
-    var margPadding = 30;
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 
-    var ident = 0;
-    var count = ($('.carrossel .item').length / numImages) - 1;
-    var slide = (numImages * margPadding) + ($('.carrossel img').outerWidth() * numImages);
-
-    $('.forth').click(function () {
-        if (ident < count) {
-            ident++;
-            $('.carrossel').animate({'margin-left': '-=' + slide + 'px'}, '500');
-        }
-    });
-
-    $('.back').click(function () {
-        if (ident >= 1) {
-            ident--;
-            $('.carrossel').animate({'margin-left': '+=' + slide + 'px'}, '500');
-        }
-    });
-
-});
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
